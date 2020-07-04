@@ -1,0 +1,67 @@
+# This is the plugin.yml file,
+#
+# This file is responsible for
+# registering any important
+# plugin data required for
+# loading, this is also where
+# you register your plugin
+# commands into the server.
+#
+# Please do not put this file
+# inside a package, if you are
+# running IntellIJ, put this
+# under the resources folder,
+# else put inside the java
+# folder
+#
+# THIS FILE IS AN EXAMPLE,
+# IF THIS FILE IS SETUP
+# INCORRECTLY THE PLUGIN WILL
+# NOT LOAD.
+
+# The value set here will be the
+# name appearing in /plugins.
+# This name will also be your
+# server-registered plugin name,
+# meaning any plugins that depend
+# on yours just depend on this
+# exact name.
+#
+# This field is required.
+name: TutorialPlugin
+
+# The value set here will be your
+# plugin version, a plugin version
+# can be checked by doing
+# /version <plugin name>, it also
+# appears on console as your plugin
+# is being loaded.
+#
+# This field is required.
+version: 1
+
+# The value set here will be your
+# main class path, any folders
+# will be connecting using a . (dot),
+# the path should be direct and
+# without the src/main/java part.
+#
+# Apart the folder, this also
+# requires the exact class name.
+#
+# This field is required and case-sensitive
+main: me.illusion.tutorials.basic.PluginClass
+
+# The value set here is semi-optional
+# It represents the server / API
+# version, allowing you to use the
+# new materials and removing any attempt
+# to use legacy materials
+#
+# If you use a version above the current
+# server version, the plugin will throw
+# an exception and will not enable.
+#
+# This fiend is semi-optional and has been
+# implemented on the version 1.13
+api-version: 1.15
